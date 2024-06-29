@@ -6,6 +6,7 @@ const Container = styled.div`
   height: 100%;
   display: flex;
   background: ${({ theme }) => theme.bg};
+  color: ${({ theme }) => theme.text_primary};
 `;
 
 const Wrapper = styled.div`
